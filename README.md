@@ -66,4 +66,4 @@ First, let's consider the binary place values:
 ---
 ## Conclusion
 In this file, we learned how to read binary, how to convert binary to decimal, and how to convert decimal to binary. Hopefully the next time you see a string of ones and zeros you can figure out what they mean instead of thinking to yourself that it is just a bunch of matrix gobbledygook.  
-![matrixbinary](matrix binary.jpg)
+![matrixbinary](matrixBinary.jpg)
