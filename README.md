@@ -65,5 +65,17 @@ First, let's consider the binary place values:
 ###### In this exampel we used a step by step process to convert the decimal value 115 to binary (0111 0101) 
 ---
 ## Conclusion
-In this file, we learned how to read binary, how to convert binary to decimal, and how to convert decimal to binary. Hopefully the next time you see a string of ones and zeros you can figure out what they mean instead of thinking to yourself that it is just a bunch of matrix gobbledygook.  
-![matrixbinary](matrixBinary.jpg)
+In this file, we learned how to read binary, how to convert binary to decimal, and how to convert decimal to binary. Hopefully the next time you see a string of ones and zeros you can figure out what they mean instead of thinking to yourself that it is just a bunch of matrix gobbledygook. 
+![matrixbinary](matrixBinary.jpg)  
+###### Thank you and I hope you learned something.
+---
+ ## More resources
+ * To learn more about [binary numbers](https://en.wikipedia.org/wiki/Binary_number) consider these articles.
+    * [How to Convert from Decimal to Binary](https://www.wikihow.com/Convert-from-Decimal-to-Binary)
+    * [How to Convert from Binary to Decimal](https://www.wikihow.com/Convert-from-Binary-to-Decimal)
+    * [How to Convert Binary to Hexadecimal](https://www.wikihow.com/Convert-Binary-to-Hexadecimal)
+    * [How to Convert Hexidecimal to Binary or Decimal](https://www.wikihow.com/Convert-Hexadecimal-to-Binary-or-Decimal)
+    * [How to Convert Binary to Octal Numbers](https://www.wikihow.com/Convert-Binary-to-Octal-Number)
+    * [How to Convert Octal to binary Numbers](https://www.quora.com/How-do-I-convert-octal-to-binary)
+    * [Computer - Number Conversions](https://www.tutorialspoint.com/computer_fundamentals/computer_number_conversion.htm)
+ 
