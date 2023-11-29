@@ -6,13 +6,13 @@ In order to read binary, it is important to consider how we read docimal which i
 #### Example
 * lets use the decimal number 234
     * First digit
-        * 4 * (10^0) = '4'
+        * 4 * (10^0) = `4`
     * Second digit
-        * 3 * (10^1) = '30'
+        * 3 * (10^1) = `30`
     * Third  digit
-        * 2 * (10^2) = '200'
+        * 2 * (10^2) = `200`
     * Finally, we add up the numbers
-        * '4 + 30 + 200 = 234'
+        * `4 + 30 + 200 = 234`
 This may seem redundant, but it will help when trying to read binary.
 ---
 ## Reading binary
@@ -20,12 +20,12 @@ Binary is considered base 2 which means that there are 2 values (0 and 1) and ea
 #### Example
 * lets use the binary value 1010
     * First digit
-        * 0 * (2^0) = '0'
+        * 0 * (2^0) = `0`
     * Second digit
-        * 1 * (2^1) = '2'
+        * 1 * (2^1) = `2`
     * Third digit
-        * 0 * (2^2) = '0'
+        * 0 * (2^2) = `0`
     * Fourth digit
-        * 1 * (2^3) = '8'
+        * 1 * (2^3) = `8`
     * Finally, we add up the numbers
-        * '0 + 2 + 0 + 8 = 10'
+        * `0 + 2 + 0 + 8 = 10`
