@@ -12,7 +12,7 @@ In order to read binary, it is important to consider how we read docimal which i
     * Third  digit
         * 2 * (10^2) = `200`
     * Finally, we add up the numbers
-        * `4 + 30 + 200 = 234`
+        * `4 + 30 + 200 = 234`  
 This may seem redundant, but it will help when trying to read binary.
 ---
 ## Reading binary
