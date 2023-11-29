@@ -36,24 +36,34 @@ Binary is considered base 2 which means that there are 2 values (0 and 1) and ea
 ## Converting Decimal to Binary
 Now that we know how to convert binary to decimal, I will go over how to convert decimal to binary
 #### Example
-First, lets consider the binary place values:
+First, let's consider the binary place values:
 | place | multiplier | decimal |
 | ----- | ---------- | ------- |
 | 1     | 2^0        | 1       |
 | 2     | 2^1        | 2       |
-    2^2 = 4
-    2^3 = 8
-    2^4 = 16
-    2^5 = 32
-    2^6 = 64
-    2^7 = 128
-* lets convert the decimal value 115 to binary
-    * Consider the binary place values
-        * 2^0 = 1
-        * 2^1 = 2
-        * 2^2 = 4
-        * 2^3 = 8
-        * 2^4 = 16
-        * 2^5 = 32
-        * 2^6 = 64
-        * 2^7 = 128
+| 3     | 2^2        | 4       |
+| 4     | 2^3        | 8       |
+| 5     | 2^4        | 16      |
+| 6     | 2^5        | 32      |
+| 7     | 2^6        | 64      |
+| 8     | 2^7        | 128     |
+* Let's convert the decimal value 115 to binary
+    * The first step is to determine what the most significant value you can use in binary, we know we cant have a 1 in the 8th place because that number is too big, but we can put a 1 in the 7s value
+        * 0100 0000 = 64
+    * Now we continue down the list until the values add up to your decimal value
+        * 64 + 32 = 94
+            * 0110 0000 = 94
+        * 94 + 16 = 110
+            * 0111 0000 = 110
+        * we cant have a 1 in the 4th place because it will go over 115, so we move on to the next number
+        * 110 + 4 = 114
+            * 0111 0100 = 114
+        * Now we just need one more value, so we put a 1 in the 1s place
+            * 114 + 1 = 115
+            * 0111 0101 = 115
+  
+###### In this exampel we used a step by step process to convert the decimal value 115 to binary (0111 0101) 
+---
+## Conclusion
+In this file, we learned how to read binary, how to convert binary to decimal, and how to convert decimal to binary. Hopefully the next time you see a string of ones and zeros you can figure out what they mean instead of thinking to yourself that it is just a bunch of matrix gobbledygook.  
+![matrixbinary](matrix binary.jpg)
