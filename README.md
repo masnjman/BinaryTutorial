@@ -16,7 +16,7 @@ In order to read binary, it is important to consider how we read docimal which i
   
 ###### This may seem redundant, but it will help when trying to read binary.
 ---
-## Reading binary
+## Converting Binary to decimal
 Binary is considered base 2 which means that there are 2 values (0 and 1) and each digit is multiplied by 2 to the power of whatever place the number is. lets use an example
 #### Example
 * lets use the binary value 1010
@@ -30,3 +30,30 @@ Binary is considered base 2 which means that there are 2 values (0 and 1) and ea
         * 1 * (2^3) = `8`
     * Finally, we add up the numbers
         * `0 + 2 + 0 + 8 = 10`
+  
+###### This example shows that the binary value 1010 is equivalent to the decimal value 10
+---
+## Converting Decimal to Binary
+Now that we know how to convert binary to decimal, I will go over how to convert decimal to binary
+#### Example
+First, lets consider the binary place values:
+| place | multiplier | decimal |
+| ----- | ---------- | ------- |
+| 1     | 2^0        | 1       |
+| 2     | 2^1        | 2       |
+    2^2 = 4
+    2^3 = 8
+    2^4 = 16
+    2^5 = 32
+    2^6 = 64
+    2^7 = 128
+* lets convert the decimal value 115 to binary
+    * Consider the binary place values
+        * 2^0 = 1
+        * 2^1 = 2
+        * 2^2 = 4
+        * 2^3 = 8
+        * 2^4 = 16
+        * 2^5 = 32
+        * 2^6 = 64
+        * 2^7 = 128
