@@ -14,7 +14,7 @@ In order to read binary, it is important to consider how we read docimal which i
     * Finally, we add up the numbers
         * `4 + 30 + 200 = 234`
   
-This may seem redundant, but it will help when trying to read binary.
+###### This may seem redundant, but it will help when trying to read binary.
 ---
 ## Reading binary
 Binary is considered base 2 which means that there are 2 values (0 and 1) and each digit is multiplied by 2 to the power of whatever place the number is. lets use an example
