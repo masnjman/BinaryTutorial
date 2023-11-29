@@ -1,6 +1,9 @@
-# BinaryTutorial
+# Binary Tutorial
+## Mason Goslee
 ##### This is the home page for the Digital Systems Final Project. in this repository contains a tutorial for how to read and convert binary numbers.
 ---
+## Why should I care?
+This repository is for anyone who is interested in number systems, computer function, or just curious about what binary numbers mean.
 ## Consider how we read decimal number system
 In order to read binary, it is important to consider how we read docimal which is the number system that we use every day. decimal is base 10 and uses 10 different values, which means that each digit is multipled by 10 to the power of whatever place it is in starting with zero. This may be confusing at first but lets use an example to better explain this concept.
 #### Example
