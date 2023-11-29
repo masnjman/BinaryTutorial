@@ -52,18 +52,18 @@ First, let's consider the binary place values:
 | 8     | 2^7        | 128     |
 * Let's convert the decimal value 115 to binary
     * The first step is to determine what the most significant value you can use in binary, we know we cant have a 1 in the 8th place because that number is too big, but we can put a 1 in the 7s value
-        * 0100 0000 = 64
+        * 0100 0000 = `64`
     * Now we continue down the list until the values add up to your decimal value
         * 64 + 32 = 94
-            * 0110 0000 = 94
+            * 0110 0000 = `94`
         * 94 + 16 = 110
-            * 0111 0000 = 110
+            * 0111 0000 = `110`
         * we cant have a 1 in the 4th place because it will go over 115, so we move on to the next number
         * 110 + 4 = 114
-            * 0111 0100 = 114
+            * 0111 0100 = `114`
         * Now we just need one more value, so we put a 1 in the 1s place
             * 114 + 1 = 115
-            * 0111 0101 = 115
+            * `0111 0101 = 115`
   
 ###### In this exampel we used a step by step process to convert the decimal value 115 to binary (0111 0101) 
 ---
